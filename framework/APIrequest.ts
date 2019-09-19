@@ -74,7 +74,6 @@ export class APIRequest {
       console.log("PASS THIS STEP!!!");
       // validateBodyFor(uri, resp.body,'get','200')
       // console.log(`Validation against RAML documentation for ${uri} passed`)
-
     return response;
   }
 }
