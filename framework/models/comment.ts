@@ -5,6 +5,6 @@ export interface IComments {
 
 
 export interface Comment {
-    message: number,
-    postId: string,
+    message: string,
+    postId: number,
 }

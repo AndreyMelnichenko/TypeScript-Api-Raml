@@ -25,10 +25,11 @@ describe('Comments', function () {
         let searchParams = new SearchParamsBuilder().build()
         console.log(JSON.stringify(searchParams));
         let hotels = await new SearchController().search(searchParams)
-        console.log(typeof(hotels));
-        // for (let coment of hotels) {
-        //     await new CommentsController().comments(coment.id)
-        // }
+        console.log("HOTELS!!! => ",JSON.stringify(hotels));
+        for (let hotel of hotels) {
+            let comment = await new CommentsController().comments(hotel.id)
+            console.log(comment.comments);
+        }
     })
 })
 
