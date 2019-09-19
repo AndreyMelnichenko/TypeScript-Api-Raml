@@ -1,0 +1,102 @@
+#%RAML 1.0
+title: HOTEL SEARCH API
+
+/Xotabu4/demo:
+  /search:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              type:
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "stars": {
+                      "type": "number"
+                    }
+                  }
+                }
+              }
+  /search/{id}:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              type:
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "stars": {
+                      "type": "number"
+                    }
+                  }
+                }
+  /comments/{1}:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              type:
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "comments": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "postId": {
+                            "type": "number"
+                          },
+                          "message": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+  /buy/{id}:
+    get:
+      responses:
+        200:
+          body:
+            application/json:
+              type:
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "status": {
+                      "type": "integer"
+                    },
+                    "message": {
+                      "type": "string"
+                    },
+                    "code": {
+                      "type": "integer"
+                    }
+                  }
+                }

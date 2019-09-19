@@ -1,0 +1,19 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1568447468090' stop='1568447468091'>
+    <name>Search</name>
+    <title>Search</title>
+    <test-cases>
+        <test-case start='1568447468091' status='pending' stop='1568447468091'>
+            <name>should be successful</name>
+            <title>should be successful</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

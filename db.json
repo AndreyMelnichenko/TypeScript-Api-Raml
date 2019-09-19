@@ -1,0 +1,77 @@
+{
+  "search": [
+    {
+      "id": 1,
+      "name": "Hilton Hotel",
+      "stars": 4.5
+    },
+    {
+      "id": 2,
+      "name": "Ramada Hotel",
+      "stars": 3
+    },
+    {
+      "id": 3,
+      "name": "Ibis Hotel",
+      "stars": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "comments": [
+        {
+          "message": "Very nice hotel! amazing",
+          "postId": 1
+        },
+        {
+          "message": "Not bad!",
+          "postId": 2
+        },
+        {
+          "message": "I like it!",
+          "postId": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "comments": [
+        {
+          "message": "Will visit again!",
+          "postId": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "comments": []
+    }
+  ],
+  "buy": [
+    {
+      "id": 1,
+      "status": 0,
+      "message": "Successfully purchased!",
+      "code": 5555
+    },
+    {
+      "id": 2,
+      "status": 1,
+      "message": "Error! Not enough money",
+      "code": -1
+    },
+    {
+      "id": 3,
+      "status": 2,
+      "message": "Error! No free rooms!",
+      "code": -2
+    },
+    {
+      "id": 4,
+      "status": 3,
+      "message": "Error! No such hotel!",
+      "code": -3
+    }
+  ]
+}
