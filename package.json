@@ -31,7 +31,7 @@
     "mocha-allure-reporter": "^1.4.0",
     "mocha-multi-reporters": "^1.1.7",
     "moment": "^2.24.0",
-    "npm": "^6.11.3",
+    "npm": "^6.13.4",
     "raml-1-parser": "^1.1.56",
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
